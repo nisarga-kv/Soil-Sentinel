@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SoilSentinel Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌱 SoilSentinel Dashboard</h1>
+      <p>Real-Time Soil Health Monitoring</p>
+    </header>
+
+    <section class="metrics">
+      <div class="card" id="ph-level">pH: --</div>
+      <div class="card" id="moisture">Moisture: --</div>
+      <div class="card" id="nutrients">NPK: --</div>
+    </section>
+
+    <section class="alerts" id="alerts">
+      <!-- Dynamic alerts will appear here -->
+    </section>
+
+    <section class="charts">
+      <canvas id="soilChart"></canvas>
+    </section>
+
+    <section class="microbe-response">
+      <h2>🧬 Microbe Activity</h2>
+      <ul id="microbe-log">
+        <!-- Activity log will be appended here -->
+      </ul>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

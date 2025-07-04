@@ -1,0 +1,57 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f9f4;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #e0ffe0;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.alerts {
+  background: #fff0f0;
+  color: red;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.charts {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.microbe-response {
+  background: #f0faff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.microbe-response ul {
+  list-style: none;
+  padding: 0;
+}
